@@ -8,8 +8,7 @@ Edit your west.yaml file found in your zmk config's config directory to add the 
 
 Example:
 
-<pre>
-
+```yaml
 manifest:
   remotes:
     - name: zmkfirmware
@@ -26,8 +25,7 @@ manifest:
       revision: main
   self:
     path: config
-
-</pre>
+```
 
 My personal ZMK firmware configuration can be found [here](https://github.com/Scybin/zmk-config-scyboard).
 
